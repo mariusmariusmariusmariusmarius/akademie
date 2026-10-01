@@ -1,0 +1,188 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mariuscoach",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "blog",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/gefundenwerden-blog"
+      ],
+      "port": 3010
+    },
+    {
+      "name": "hauptseite",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/website",
+        "--",
+        "-H",
+        "127.0.0.1",
+        "-p",
+        "3210"
+      ],
+      "port": 3210
+    },
+    {
+      "name": "organisation",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/organisation"
+      ],
+      "port": 3400,
+      "autoPort": false
+    },
+    {
+      "name": "malermeister",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/kunden/malermeister-andy",
+        "--",
+        "-p",
+        "3310"
+      ],
+      "port": 3310
+    },
+    {
+      "name": "mirror-alt",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3390",
+        "-d",
+        "/Users/mariusmuller/Downloads/us.sitesucker.mac.sitesucker/www.malermeister-andy.de"
+      ],
+      "port": 3390
+    },
+    {
+      "name": "iet-jung",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/kunden/iet-jung",
+        "--",
+        "-p",
+        "3320"
+      ],
+      "port": 3320
+    },
+    {
+      "name": "fliesendesign-hill",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/kunden/fliesendesign-hill",
+        "--",
+        "-p",
+        "3330"
+      ],
+      "port": 3330
+    },
+    {
+      "name": "hoergeraete-kehrel",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/kunden/hoergeraete-kehrel",
+        "--",
+        "-p",
+        "3340"
+      ],
+      "port": 3340
+    },
+    {
+      "name": "gartenpflege-mirror",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3395",
+        "-d",
+        "/Users/mariusmuller/Downloads/us.sitesucker.mac.sitesucker/gartenpflege-landstuhl.de"
+      ],
+      "port": 3395
+    },
+    {
+      "name": "gartenpflege",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/kunden/gartenpflege-landstuhl",
+        "--",
+        "-p",
+        "3350"
+      ],
+      "port": 3350
+    },
+    {
+      "name": "baescon",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/mariusmuller/.mm/kunden/baescon.de",
+        "--",
+        "-p",
+        "3360"
+      ],
+      "port": 3360,
+      "autoPort": false
+    },
+    {
+      "name": "landfy-vorlage",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3396",
+        "-d",
+        "/Users/mariusmuller/Downloads/us.sitesucker.mac.sitesucker/landfy.framer.website"
+      ],
+      "port": 3396,
+      "autoPort": false
+    },
+    {
+      "name": "wetzel-vorschau",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3365",
+        "-d",
+        "/Users/mariusmuller/.mm/kunden/wetzel-landtechnik"
+      ],
+      "port": 3365
+    }
+  ]
+}
